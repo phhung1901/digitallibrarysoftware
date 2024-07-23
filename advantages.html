@@ -1,0 +1,358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Digital Library Software::</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #C9E7EF;
+}
+-->
+</style>
+<script language="javascript">
+function valid()
+{
+if(document.form1.Name.value == "")
+{
+alert("Please enter your name.");
+        document.form1.Name.focus();
+        return false;
+}
+if (document.form1.Email.value == "")
+    {
+        alert("Please enter an e-mail address.");
+        document.form1.Email.focus();
+        return false;
+    }
+    //
+    // Now check the Email field for the "@" symbol
+    //
+    if (document.form1.Email.value.indexOf("@") == -1)
+    {
+        alert("Please enter a valid e-mail address.");
+        document.form1.Email.focus();
+        return false;
+    }
+	if (document.form1.Email.value.indexOf(".") == -1)
+    {
+        alert("Please enter a valid e-mail address.");
+        document.form1.Email.focus();
+        return false;
+    }
+
+if(document.form1.Phone.value == "")
+{
+alert("Please enter your Phone Number.");
+        document.form1.Phone.focus();
+        return false;
+}
+if(document.form1.Query.value == "")
+{
+alert("Please enter your Query.");
+        document.form1.Query.focus();
+        return false;
+}
+
+}
+</script>
+<link href="css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><img src="images/top-banner.gif" width="1000" height="77" border="0" usemap="#Map2" alt="" /></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><img src="images/banner.jpg" width="1000" height="215" alt="" /></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="40" bgcolor="#f58b27" class="menu"><img src="images/menu.gif" alt="" width="1000" height="40" border="0" usemap="#Map" />
+            <map name="Map" id="Map">
+              <area shape="rect" coords="121,10,180,33" href="index.html" alt="" />
+              <area shape="rect" coords="211,9,298,33" href="about-us.html" alt="" />
+              <area shape="rect" coords="321,8,462,35" href="why-digital-library.html" alt="" />
+              <area shape="rect" coords="500,8,587,32" href="advantages.html" alt="" />
+              <area shape="rect" coords="606,10,741,32" href="modules.html" alt="" />
+              <area shape="rect" coords="783,12,873,30" href="contact-us.html" alt="" />
+            </map></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td width="697" valign="top" bgcolor="#FFFFFF"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td  class="content"><div align="left"><img src="images/advantages.gif" width="311" height="44" alt="" /></div></td>
+        </tr>
+        <tr>
+          <td class="content-inner"> eShelf is developed exclusively in-house by the software team at Oréll.  The standalone virtual library is
+            customizable to institutional needs and is 100% privilage-controlled by admin offers a host of advantages, which include: </td>
+        </tr>
+        <tr>
+          <td class="content-inner"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="4%" height="30" align="center"><img src="images/bull.gif" alt="" width="7" height="11" /></td>
+                <td width="48%" height="30" class="system-requirements">User-friendly &amp; cost effective<br /></td>
+                <td width="48%" rowspan="14" class="system-requirements"><div align="center"><img src="images/moniternew1.gif" width="309" height="197" align="middle" alt="" /></div></td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif" alt="" width="7" height="11" /></td>
+                <td height="30" class="system-requirements">Enables interactive learning</td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif" width="7" height="11" alt=""/></td>
+                <td height="30" class="system-requirements">One-time perpetual license</td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif" width="7" height="11" alt="" /></td>
+                <td height="30" class="system-requirements">Free on-site installation &amp; training</td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif" width="7" height="11"  alt=""/></td>
+                <td height="30" class="system-requirements">Free technical support for one year</td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif" width="7" height="11" alt="" /></td>
+                <td height="30" class="system-requirements">24/7 Customer support</td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif" width="7" height="11" alt="" /></td>
+                <td height="30" class="system-requirements">Periodic updating</td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif" alt="" width="7" height="11" /></td>
+                <td height="30" class="system-requirements">Intranet connectivity</td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif" width="7" height="11" alt="" /></td>
+                <td height="30" class="system-requirements">Unlimited membership</td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif" alt="" width="7" height="11" /></td>
+                <td height="30" class="system-requirements">Encourages creative writing skills</td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif" width="7" height="11" alt="" /></td>
+                <td height="30" class="system-requirements">Downloadable &amp; printable</td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif" width="7" height="11" alt="" /></td>
+                <td height="30" class="system-requirements">Quickly save for future reference</td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif"  width="7" height="11" alt="" /></td>
+                <td height="30" class="system-requirements">Instant access to shared knowledge base</td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><img src="images/bull.gif"  width="7" height="11" alt="" /></td>
+                <td height="30" class="system-requirements">Integrate/digitise conventional library</td>
+              </tr>
+              <tr>
+                <td height="1%" style="line-height:10px;" colspan="3" align="center">&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+    <td width="303" valign="top" bgcolor="#FFFFFF"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="44" class="content">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><table style="background-image:url(images/system-requirements.gif); background-repeat:no-repeat;" width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="322" valign="top"><table width="96%" border="0" align="right" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="8%" height="28" style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif"  width="6" height="8" alt="" /></td>
+                      <td width="92%" height="40" class="system-requirements">OS Windows Server 2003 or above</td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif" width="6" height="8" alt="" /></span></td>
+                      <td height="30" class="system-requirements">Configure IIS (Internet Information Services)<br />
+                        Microsoft  (.NET) Framework 2.0 or above</td>
+                    </tr>
+                    <tr>
+                      <td height="28" style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif" width="6" height="8" alt="" /></span></td>
+                      <td height="30" class="system-requirements">Microsoft SQL Server 2005 </td>
+                    </tr>
+                    <tr>
+                      <td height="28" style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif"  width="6" height="8" alt="" /></span></td>
+                      <td height="30" class="system-requirements">AJAX Setup</td>
+                    </tr>
+                    <tr>
+                      <td height="28" style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif"  width="6" height="8" alt="" /></span></td>
+                      <td height="30" class="system-requirements">Report Viewer</td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif"  width="6" height="8" alt="" /></span></td>
+                      <td height="30" class="system-requirements">Acrobat Reader</td>
+                    </tr>
+                    <tr>
+                      <td height="28" style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif"  width="6" height="8" alt="" /></span></td>
+                      <td height="30" class="system-requirements">Adobe Flash Player</td>
+                    </tr>
+                    <tr>
+                      <td height="28" style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif"   width="6" height="8" alt="" /></span></td>
+                      <td height="30" class="system-requirements">Internet Explorer 7.0</td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td colspan="2" bgcolor="#FFFFFF"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><table width="97%"  border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr bgcolor="#999999">
+                <td height="0" colspan="3" style="line-height:5px; ">&nbsp;</td>
+              </tr>
+              <tr bgcolor="#EDEDED">
+                <td width="44%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td height="34"><p align="left"><img src="images/quick-contact.gif" width="314" height="20" alt="" /></p></td>
+                    </tr>
+                    <tr>
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td class="system-requirements"><form id="form1" name="form1" method="post" action="quick-mail.php" onsubmit='return valid();'>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="3%" height="32" class="system-requirements">&nbsp;</td>
+                                    <td width="18%" height="32" class="system-requirements"><div align="left">Name </div></td>
+                                    <td width="36%" height="32" class="system-requirements"><label>
+                                        <input name="name" type="text" class="Box" id="Name" size="25" />
+                                      </label></td>
+                                    <td width="43%" height="32" rowspan="3" valign="top" class="system-requirements" style="padding-bottom:3px;"><label> </label>
+                                      <div align="right">
+                                        <table width="97%"  border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                            <td height="30"><div align="left">Query</div></td>
+                                          </tr>
+                                          <tr>
+                                            <td><div align="left">
+                                                <textarea name="message" cols="25" rows="3" class="Box1" id="Query"></textarea>
+                                              </div></td>
+                                          </tr>
+                                        </table>
+                                      </div></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="32" class="system-requirements">&nbsp;</td>
+                                    <td height="32" class="system-requirements"><div align="left">E - Mail</div></td>
+                                    <td height="32" class="system-requirements"><input name="email" type="text" class="Box" id="Email" size="25" /></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="32" class="system-requirements">&nbsp;</td>
+                                    <td height="32" class="system-requirements"><div align="left">Phone</div></td>
+                                    <td height="32" class="system-requirements"><input name="phone" type="text" class="Box" id="Phone" size="25" /></td>
+                                  </tr>
+                                  <tr align="center" bgcolor="#EDEDED">
+                                    <td height="45" colspan="4" class="system-requirements"><div align="left">
+                                        <table width="362"  border="0" align="right" cellpadding="0" cellspacing="0">
+                                          <tr class="content-inner">
+                                            <td height="30">SECURITY CODE</td>
+                                            <td height="30" align="center">:</td>
+                                            <td height="30"><img src="CaptchaSecurityImages.php?width=80&amp;height=30&amp;characters=5" alt="Security Code2" style="vertical-align:middle">
+                                              <input type="text" maxlength="5" name="security_code2" id="security_code2" placeholder="Enter Security Code" style="width:160px !important;height:30px !important;" required></td>
+                                          </tr>
+                                        </table>
+                                      </div></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="32" class="system-requirements">&nbsp;</td>
+                                    <td height="32" class="system-requirements">&nbsp;</td>
+                                    <td height="32" class="system-requirements"><input style="background: #065ccb;
+
+border: none;
+
+padding: 10px 15px;
+
+color: #fff;
+
+height: 30px; cursor:pointer;"  type="submit"  value="Submit" class="Box"   size="25" /></td>
+                                  </tr>
+                                </table>
+                              </form></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+                <td width="2%"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td><div align="right"><img src="images/gray-line.gif" width="14" height="174" alt="" /></div></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </table></td>
+                <td width="54%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td valign="bottom" width="146"><img src="images/eshelf.gif" width="140" height="77" alt="" /></td>
+                            <td width="375" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td height="20">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td height="30" class="system-requirements">1st Floor, BCG Tower, Opp. CSEZ, Seaport - Airport Road, Kakkanad, Kochi-682 037.</td>
+                                </tr>
+                                <tr>
+                                  <td height="30" class="system-requirements"> Phone : +91 484 4141 000. eMail : eshelf@orell.com</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td><div align="right"><img src="images/gray-horizontal.gif" width="518" height="14" alt="" /></div></td>
+                    </tr>
+                    <tr>
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="97%" height="30" class="system-requirements"><div align="right"><a style="text-decoration:none; color:#555655;" href="index.html">Home</a> | <a style="text-decoration:none; color:#555655;"  href="about-us.html">About eShelf</a> | <a style="text-decoration:none; color:#555655;"  href="why-digital-library.html">Why Digital Library?</a> | <a style="text-decoration:none; color:#555655;"  href="advantages.html">Advantages</a> | <a style="text-decoration:none; color:#555655;"  href="modules.html">Modules</a> | <a style="text-decoration:none; color:#555655;"  href="contact-us.html">Contact</a></div></td>
+                            <td width="3%" class="system-requirements">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td height="30" class="system-requirements"><div align="right">Copyright@digitallibrarysoftware.com 2010. All rights reserved </div></td>
+                            <td class="system-requirements">&nbsp;</td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>

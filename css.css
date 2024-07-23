@@ -1,0 +1,67 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px;
+	font-weight:12px;
+	color:555655;
+	text-align: center;
+}
+.Box
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#555655;
+	height:18px;
+	}
+.Box1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#555655;
+
+	}
+.content {
+	font-size:12px; 
+	color:#555655;
+	text-align:justify;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	line-height:20px;
+}
+.content-inner {
+	font-size:12px; 
+	color:#555655;
+	text-align:justify;
+	padding-left:15px;
+	padding-right:3px;
+	line-height:20px;
+}
+.system-requirements {
+	font-size:12px; 
+	color:#555655;
+	text-align:justify;
+	line-height:20px;
+}
+
+/*
+     FILE ARCHIVED ON 05:08:54 Jan 12, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:36:56 Jul 22, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 4.562
+  exclusion.robots: 0.129
+  exclusion.robots.policy: 0.068
+  esindex: 0.019
+  cdx.remote: 34.22
+  LoadShardBlock: 2248.991 (3)
+  PetaboxLoader3.datanode: 7322.168 (4)
+  PetaboxLoader3.resolve: 2636.575 (2)
+  load_resource: 7916.697
+*/

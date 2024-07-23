@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Digital Library Software::</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #C9E7EF;
+}
+-->
+</style>
+
+<script language="javascript">
+function valid()
+{
+if(document.form1.Name.value == "")
+{
+alert("Please enter your name.");
+        document.form1.Name.focus();
+        return false;
+}
+if (document.form1.Email.value == "")
+    {
+        alert("Please enter an e-mail address.");
+        document.form1.Email.focus();
+        return false;
+    }
+    //
+    // Now check the Email field for the "@" symbol
+    //
+    if (document.form1.Email.value.indexOf("@") == -1)
+    {
+        alert("Please enter a valid e-mail address.");
+        document.form1.Email.focus();
+        return false;
+    }
+	if (document.form1.Email.value.indexOf(".") == -1)
+    {
+        alert("Please enter a valid e-mail address.");
+        document.form1.Email.focus();
+        return false;
+    }
+
+if(document.form1.Phone.value == "")
+{
+alert("Please enter your Phone Number.");
+        document.form1.Phone.focus();
+        return false;
+}
+if(document.form1.Query.value == "")
+{
+alert("Please enter your Query.");
+        document.form1.Query.focus();
+        return false;
+}
+
+}
+</script>
+
+<link href="css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="images/top-banner.gif" width="1000" height="77" border="0" usemap="#Map7" alt="" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="images/banner.jpg" width="1000" height="215" alt="Digital Library Software" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="40" bgcolor="#f58b27" class="menu"><img src="images/menu.gif" width="1000" height="40" border="0" usemap="#Map" alt="Digital Library System" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF"><table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><img src="images/img-11.gif" alt="About eShelf" width="312" height="170" align="middle" /></td>
+              </tr>
+              <tr>
+                <td class="content">eShelf - offline virtual library  stores content digitally and is accessible by computers. eShelf retrieves comprehensive yet accurate information that is 100% secure and virus-free, across the intranet.</td>
+              </tr>
+              <tr>
+                <td ><div align="right"><img src="images/read-more-light-blue.gif" width="168" height="50" border="0" alt="Digital Library System" usemap="#Map2" /></div></td>
+              </tr>
+            </table></td>
+            <td valign="top"><table bgcolor="#F6F6F6" width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="269" valign="top" bgcolor="#F6F6F6"><div align="center"><img src="images/line-img-1.gif" width="11" height="258" alt="eShelf" /></div></td>
+              </tr>
+            </table></td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td bgcolor="#F6F6F6"><img src="images/img-2.gif" alt="offline Virtual Library" width="311" height="170" align="middle" /></td>
+              </tr>
+              <tr>
+                <td class="content">eShelf -  digital library is an information retrieval system in which collections are stored in digital formats and easily accessed by networked computers. </td>
+              </tr>
+              <tr>
+                <td><div align="right"><img src="images/read-more-blue.gif" alt="Virtual Library" width="158" height="50" border="0" usemap="#Map3" /></div></td>
+              </tr>
+            </table></td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><div align="center"><img src="images/line-img-2.gif" width="11" height="260" alt="Digital Library Software" /></div></td>
+              </tr>
+            </table></td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><div align="center"><img src="images/img-3.gif" alt="Library - Advantages" width="312" height="170" align="middle" /></div></td>
+              </tr>
+              <tr>
+                <td class="content">eShelf is developed exclusively in-house by the software team at Oréll.  The standalone virtual library is customizable to institutional needs and is 100% privilage-controlled by admin.</td>
+              </tr>
+              <tr>
+                <td><div align="right"><img src="images/read-more-red.gif" alt="Why Digital Library" width="157" height="50" border="0" usemap="#Map4" /></div></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF"><table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="328"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="328"><img src="images/diagrom.gif" width="328" height="269" alt=""/></td>
+          </tr>
+        </table></td>
+        <td width="328" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="328"><img src="images/user-module.gif" alt="Library - Module" width="328" height="27" /></td>
+          </tr>
+          <tr>
+            <td class="content">This easy-to-use versatile module helps users browse the library quickly and effectively. Administrator assigned privileges permit users to not only browse/delete own content but also rate article/e-books and post comments/viewpoints.</td>
+          </tr>
+          <tr>
+            <td height="20"><div align="right"><img src="images/learn-more.gif" width="91" height="17" border="0" usemap="#Map5" alt="Lear More - User Module" /></div></td>
+          </tr>
+          <tr>
+            <td height="20"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="328"><img src="images/administration-module.gif" alt="eShelf - Administrative Module" width="328" height="26" /></td>
+              </tr>
+              <tr>
+                <td class="content">This full-options module ensures ease of navigability for users helping them receive appropriate e-content efficiently. Administrator can not only edit/delete content but can also assign/control user privileges to ensure that contents are current and periodically updated. </td>
+              </tr>
+              <tr>
+                <td height="20"><div align="right"><img src="images/learn-more.gif" alt="Learn More - Administration Module" width="91" height="17" border="0" usemap="#Map6" /></div></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td valign="top"><table style="background-image:url(images/system-requirements.gif); background-repeat:no-repeat;" width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="322" valign="top"><table width="96%" border="0" align="right" cellpadding="0" cellspacing="0">
+              <tr>
+                <td colspan="2">&nbsp;</td>
+                </tr>
+              <tr>
+                <td height="25" colspan="2">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="10%" height="28" style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif" width="6" height="8" alt="Digital Library" /></td>
+                <td width="90%" height="30" class="system-requirements">OS �?Windows Server 2003 or above</td>
+              </tr>
+              <tr>
+                <td style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif" alt="Library" width="6" height="8" /></span></td>
+                <td height="30" class="system-requirements">Configure IIS (Internet Information Services)<br />
+                  Microsoft  (.NET) Framework 2.0 or above</td>
+                </tr>
+              <tr>
+                <td height="28" style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif" alt="Digital Library Software" width="6" height="8" /></span></td>
+                <td height="30" class="system-requirements">Microsoft SQL Server 2005 </td>
+                </tr>
+              <tr>
+                <td height="28" style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif" alt="Library - System Requirements" width="6" height="8" /></span></td>
+                <td height="30" class="system-requirements">AJAX Setup</td>
+                </tr>
+              <tr>
+                <td height="28" style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif" alt="Digital Library Software" width="6" height="8" /></span></td>
+                <td height="30" class="system-requirements">Report Viewer</td>
+                </tr>
+              <tr>
+                <td style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif" alt="Virtual Library" width="6" height="8" /></span></td>
+                <td height="30" class="system-requirements">Acrobat Reader</td>
+                </tr>
+              <tr>
+                <td height="28" style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif" alt="Library Management Software" width="6" height="8" /></span></td>
+                <td height="30" class="system-requirements">Adobe Flash Player</td>
+                </tr>
+              <tr>
+                <td height="28" style="text-align: center"><span style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><img src="images/bullet.gif" alt="Library Software" width="6" height="8" /></span></td>
+                <td height="30" class="system-requirements">Internet Explorer 7.0</td>
+                </tr>
+              </table></td>
+          </tr>
+          </table></td>
+      </tr>
+    </table></td>
+  </tr>
+
+  <tr>
+    <td bgcolor="#FFFFFF"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><table width="97%"  border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr bgcolor="#999999">
+            <td height="0" colspan="3" style="line-height:5px; ">&nbsp;</td>
+            </tr>
+          <tr bgcolor="#EDEDED">
+            <td width="44%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="34"><p align="left"><img src="images/quick-contact.gif" alt="eShelf - Quick Contact" width="314" height="20" /></p></td>
+              </tr>
+              <tr>
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                       <td class="system-requirements"><form id="form1" name="form1" method="post" action="quick-mail.php" onsubmit='return valid();'>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="3%" height="32" class="system-requirements">&nbsp;</td>
+                                    <td width="18%" height="32" class="system-requirements"><div align="left">Name </div></td>
+                                    <td width="36%" height="32" class="system-requirements"><label>
+                                        <input name="name" type="text" class="Box" id="Name" size="25" />
+                                      </label></td>
+                                    <td width="43%" height="32" rowspan="3" valign="top" class="system-requirements" style="padding-bottom:3px;"><label> </label>
+                                      <div align="right">
+                                        <table width="97%"  border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                            <td height="30"><div align="left">Query</div></td>
+                                          </tr>
+                                          <tr>
+                                            <td><div align="left">
+                                                <textarea name="message" cols="25" rows="3" class="Box1" id="Query"></textarea>
+                                              </div></td>
+                                          </tr>
+                                        </table>
+                                      </div></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="32" class="system-requirements">&nbsp;</td>
+                                    <td height="32" class="system-requirements"><div align="left">E - Mail</div></td>
+                                    <td height="32" class="system-requirements"><input name="email" type="text" class="Box" id="Email" size="25" /></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="32" class="system-requirements">&nbsp;</td>
+                                    <td height="32" class="system-requirements"><div align="left">Phone</div></td>
+                                    <td height="32" class="system-requirements"><input name="phone" type="text" class="Box" id="Phone" size="25" /></td>
+                                  </tr>
+                                  <tr align="center" bgcolor="#EDEDED">
+                                    <td height="45" colspan="4" class="system-requirements"><div align="left">
+                                        <table width="362"  border="0" align="right" cellpadding="0" cellspacing="0">
+                                          <tr class="content-inner">
+                                            <td height="30">SECURITY CODE</td>
+                                            <td height="30" align="center">:</td>
+                                            <td height="30"><img src="CaptchaSecurityImages.php?width=80&amp;height=30&amp;characters=5" alt="Security Code2" style="vertical-align:middle">
+                                              <input type="text" maxlength="5" name="security_code2" id="security_code2" placeholder="Enter Security Code" style="width:160px !important;height:30px !important;" required></td>
+                                          </tr>
+                                        </table>
+                                      </div></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="32" class="system-requirements">&nbsp;</td>
+                                    <td height="32" class="system-requirements">&nbsp;</td>
+                                    <td height="32" class="system-requirements"><input style="background: #065ccb;
+
+border: none;
+
+padding: 10px 15px;
+
+color: #fff;
+
+height: 30px; cursor:pointer;"  type="submit"  value="Submit" class="Box"   size="25" /></td>
+                                  </tr>
+                                </table>
+                              </form></td>
+                    </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          <td width="2%"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td><div align="right"><img src="images/gray-line.gif" width="14" height="174"  alt="Digital Library"/></div></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+          </table></td>
+            <td width="54%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td valign="bottom" width="146"><img src="images/eshelf.gif"  alt="eShelf - Digital Library Software" width="140" height="77" /></td>
+                      <td width="375" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td height="20">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td height="30" class="system-requirements">1st Floor, BCG Tower, Opp. CSEZ, Seaport - Airport Road, Kakkanad, Kochi-682 037.</td>
+                          </tr>
+                          <tr>
+                            <td height="30" class="system-requirements"> Phone : +91 484 4141 000. eMail : eshelf@orell.com</td>
+                          </tr>
+                      </table></td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><div align="right"><img src="images/gray-horizontal.gif" alt="Library Software" width="518" height="14" /></div></td>
+              </tr>
+              <tr>
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="97%" height="30" class="system-requirements"><div align="right"><a style="text-decoration:none; color:#555655;" href="index.html">Home</a> | <a style="text-decoration:none; color:#555655;"  href="about-us.html">About eShelf</a> | <a style="text-decoration:none; color:#555655;"  href="why-digital-library.html">Why Digital Library?</a> | <a style="text-decoration:none; color:#555655;"  href="advantages.html">Advantages</a> | <a style="text-decoration:none; color:#555655;"  href="modules.html">Modules</a> | <a style="text-decoration:none; color:#555655;"  href="Resources/index.html">Resources</a> | <a style="text-decoration:none; color:#555655;"  href="contact-us.html">Contact</a></div></td>
+                      <td width="3%" class="system-requirements">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="30" class="system-requirements"><div align="right">Copyright@digitallibrarysoftware.com 2010. All rights reserved </div></td>
+                      <td class="system-requirements">&nbsp;</td>
+                    </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="121,10,180,33" href="index.html" alt="eShelf" />
+  <area shape="rect" coords="211,9,298,33" href="about-us.html" alt="about eShelf" />
+  <area shape="rect" coords="323,8,461,33" href="why-digital-library.html" alt="Why Digital Library" />
+  <area shape="rect" coords="499,9,588,33" href="advantages.html" alt="eShelf - Advantages" />
+  <area shape="rect" coords="606,8,742,33" href="modules.html" alt="eShelf - Modules" />
+  <area shape="rect" coords="782,12,873,30" href="contact-us.html" alt="eShelf - Contact Us" />
+</map>
+
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="33,3,153,32" href="about-us.html" alt="About eShelf" />
+</map>
+
+<map name="Map3" id="Map3">
+  <area shape="rect" coords="25,2,137,30" href="why-digital-library.html" alt="Why Digital Library" />
+</map>
+
+<map name="Map4" id="Map4">
+  <area shape="rect" coords="32,4,141,29" href="advantages.html" alt="Library - Advantages" />
+</map>
+
+<map name="Map5" id="Map5">
+  <area shape="rect" coords="-1,-1,90,17" href="modules.html#user" alt="Library Modules"/>
+</map>
+
+<map name="Map6" id="Map6">
+  <area shape="rect" coords="-1,1,92,19" href="modules.html#admin" alt="Libray Admin Modules" />
+</map>
+</body>
+</html>
